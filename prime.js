@@ -1,9 +1,8 @@
-let a=50;
-let count=0
-if(a%2==0){
-count++
+let num =11;
+let isPrime=true;
+for(let i=2; i<num; i++){
+   if(num%i ==0){
+    isPrime =false;
+   }
 }
-if(count==2){
-console.log("prime")
-//amol patil
-}
+(isPrime == true)? console.log("Number is Prime"): console.log("Number is Not Prime");
